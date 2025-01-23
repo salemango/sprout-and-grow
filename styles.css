@@ -1,0 +1,551 @@
+body {
+    background-color: #DFE2D2;
+    color: #075942;
+    font-family: 'Alata', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    margin: 0;
+    line-height: 1.5em;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    background-color: #DFE2D2;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0D0D0D;
+}
+
+img {
+    max-width: 100%;
+}
+
+.topwrap {
+    background-color: #F2F5E8;
+    position: sticky;
+    top: 0;
+}
+
+.heading {
+    padding: 2%;
+}
+
+.heading>img {
+    width: 80%;
+    display: block;
+    margin: auto auto;
+}
+
+.heading button {
+    padding: 0;
+    width: 85px;
+    height: 85px;
+    background: none;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 1%;
+    background-color: #93BF50;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 2% auto;
+    padding: 0;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+
+nav ul li {
+    margin: 1%;
+}
+
+.heading button img {
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    background: none;
+    width: 80px;
+    height: 80px;
+}
+
+nav ul li a {
+    color: #0D0D0D;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12pt;
+}
+
+.nomobiledisplay {
+    display: none;
+}
+
+.mobile {
+    width: 95%;
+    margin: 3% auto;
+    display: block;
+    border: 1px solid #0D0D0D;
+}
+
+.desktop {
+    display: none;
+}
+
+h1 {
+    font-family: "Freehand", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25pt;
+    color: #0D0D0D;
+    text-align: center;
+    margin: 8% auto;
+}
+
+main p {
+    text-align: center;
+    padding: 0 5%;
+    margin: 0;
+    font-size: 14pt;
+}
+
+figure {
+    background-color: #F2F5E8;
+    padding: 5%;
+}
+
+figure img {
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #0D0D0D;
+}
+
+figcaption strong {
+    color: #0D0D0D;
+    display: block;
+    border-bottom: 1px solid #93BF50;
+}
+
+figcaption {
+    text-align: center;
+    padding: 2%;
+}
+
+footer {
+    background-color: #F2F5E8;
+    margin: 3% 0;
+    padding: 1%;
+    margin-bottom: 0;
+}
+
+/* For shorter pages, to make sure the footer adheres to the bottom */
+.extraspace {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 1%;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #0D0D0D;
+    font-size: 12pt;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer ul li:nth-of-type(3) {
+    font-family: 'Freehand', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+    color:#0D0D0D;
+    padding: 0 5%;
+}
+
+.maintext {
+    padding: 3%;
+}
+
+.maintext p {
+    margin: 5% auto;
+}
+
+#contactgrid { 
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    grid-gap: 10%;
+    margin: 15% auto;
+    background-color: #F2F5E8;
+    padding: 10%;
+}
+
+#contactgrid li {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#contactgrid li:nth-of-type(odd) {
+    text-transform: uppercase;
+    color: #0D0D0D;
+}
+
+#contactgrid li:nth-of-type(even) {
+    font-size: 12pt;
+}
+
+#eventsgrid strong {
+    display: block;
+    color: #0D0D0D;
+    font-size: 16pt;
+    font-style: normal;
+    font-weight: bold;
+    margin: 2% auto;
+}
+
+#updatesform form {
+    background-color: #F2F5E8;
+    padding: 5%;
+    margin: 5%;
+}
+
+form h3 {
+    line-height: 1em;
+    padding: 0;
+    margin: 5% auto;
+    color: #0D0D0D;
+    padding-left: 0;
+}
+
+form label, form input, form select {
+    margin: 0;
+    margin-left: 5%;
+}
+
+#formtextinputs input {
+    margin-left: 10%;
+}
+
+#radiocontrols div {
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+#radiocontrols div input {
+    margin: 14%;
+}
+
+form select, #formtextinputs input {
+    padding: 2%;
+    border: 1px solid #0D0D0D;
+    color:#075942;
+    font-size: 14pt;
+    font-family: 'Alata', Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+}
+
+#submitbutton {
+    display: block;
+    margin: 10% auto;
+    padding: 5%;
+    font-size: 14pt;
+    font-family: 'Alata', Arial, Helvetica, sans-serif;
+    background-color: #0D0D0D;
+    color:#F2F5E8;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+#locationsinfo {
+    background-color: #F2F5E8;
+    padding: 4%;
+    display: block;
+    margin: 5% 10%;
+}
+
+#locationsinfo li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#locationsmap {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    background-color: #0D0D0D;
+    padding: 1%;
+    border: none;
+}
+
+@media screen and (min-width: 600px) {
+
+    .heading {
+        display: block;
+    }
+
+    .heading img {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .heading button {
+        display: none;
+    }
+
+    .nomobiledisplay {
+        display: block;
+    }
+
+    #navigationlist li {
+        display: inline-block;
+        background-color: #F2F5E8;
+        padding: 1%;
+        font-size: 11pt;
+        margin: .5%;
+    }
+
+    h1 {
+        font-size: 27pt;
+        font-weight: bold;
+        margin: 5% auto;
+    }
+
+    .fourboxes {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    figure {
+        margin: 3%;
+    }
+
+    figcaption strong {
+        margin-bottom: 3%;
+        font-size: 16pt;
+    }
+
+    #contactgrid {
+        margin: 10%;
+    }
+
+    #contactgrid li:nth-child(odd) {
+        font-size: 16pt;
+    }
+
+    #contactgrid li:nth-child(even) {
+        font-size: 14pt;
+    }
+
+    .extraspace600 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    form {
+        font-size: 16pt;
+    }
+
+    #updatesonform input {
+       width: 15px;
+       height: 15px;
+    }
+
+    #radiocontrols div input {
+        margin: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .topwrap {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        position: static;
+        padding: 0;
+    }
+
+    .heading img {
+        width: 90%;
+    }
+
+    #navigationlist {
+        background-color: #F2F5E8;
+        padding-bottom: 0;
+        margin: 0;
+    }
+
+    #navigationlist li a {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 15pt;
+    }
+
+    #navigationlist li a:hover {
+        color:#075942;
+    }
+
+    .heroimages .desktop {
+        width: 90%;
+        margin: 3% auto;
+        display: block;
+        border: 1px solid #0D0D0D;
+    }
+
+    h1 {
+        margin: 3% auto;
+    }
+
+    #serve p {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .fourboxes {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .maintext {
+        padding: 1% 20%;
+    }
+
+    .maintext p {
+        margin: 2% auto;
+    }
+
+    #contactgrid {
+        margin: 5% 10%;
+    }
+
+    .extraspace1200 {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    #eventsgrid figure {
+        display: flex;
+        flex-direction: row;
+        margin: 0 14%;
+        padding: 1%;
+    }
+
+    #eventsgrid figcaption {
+        text-align: left;
+    }
+
+    #eventsgrid figure:nth-of-type(2) {
+        flex-direction: row-reverse;
+    }
+
+    #eventsgrid figure:nth-of-type(2) figcaption {
+        text-align: right;
+    }
+
+    #updatesform {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    form h3 {
+        margin: 1%;
+        margin-bottom: 3%;
+    }
+
+    #formtextinputs input, form select {
+        padding: 1%;
+    }
+
+    #formtop {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #updatesonform input { 
+        margin: 2em;
+        margin-left: 5%;
+    }
+
+    #updatesonform input:first-of-type {
+        margin-top: 2em;
+    }
+
+    #radiocontrols {
+        margin: 5% auto;
+    }
+
+    #radiocontrols div {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #radiocontrols div label {
+        margin: 0;
+    }
+
+    #radiocontrols input {
+        margin: 0;
+    }
+
+    #radiocontrols input:nth-of-type(2) {
+        margin-left: 200px;
+    }
+
+    #submitbutton {
+        padding: 3%;
+        font-size: 20pt;
+        font-weight: normal;
+        cursor: pointer;
+        margin-bottom: 0;
+    }
+
+    #locationsinfo {
+        margin: 2% 35%;
+        padding: 2%;
+    }
+
+    #locationsmap {
+        padding: .5%;
+    }
+}
